@@ -6,9 +6,9 @@ Praticamente nada de JavaScript, só um "login" com localStorage que eu não con
 
 Responsivo em três resoluções:
 
-  Maior que 1200px.
-  Maior que 768px.
-  Menor que 768px.
+  Maior que 1200px <br>
+  Maior que 768px <br>
+  Menor que 768px <br>
 
 Código e Design feitos por mim.
 
