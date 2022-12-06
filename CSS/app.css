@@ -1,0 +1,158 @@
+@media only screen and (min-width: 1200px) {
+    .section1{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 84vh;
+    }
+    .backgrounds1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        height: 500px;
+        width: 900px;
+        background-color: #000000;
+    }
+    .celulares{
+        justify-content: center;
+    }
+    .samsumg{
+        width: 200px;
+        margin-bottom: 15px;
+    }
+    .iphone{
+        margin-bottom: 15px;
+        width: 177.5px;
+    }
+    .samsumglink{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+    }
+    .iphonelink{
+        margin-right: 100px;
+        float: left;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .downloadlink{
+        width: 200px;
+    }
+    footer{
+        background-color: rgb(0, 0, 0) !important;
+    }
+    .rm{
+        color: rgb(255, 255, 255) !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px){
+    .section1{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 84vh;
+    }
+    .backgrounds1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        height: 500px;
+        width: 700px;
+        background-color: #000000;
+    }
+    .celulares{
+        justify-content: center;
+    }
+    .samsumg{
+        width: 200px;
+        margin-bottom: 15px;
+    }
+    .iphone{
+        margin-bottom: 15px;
+        width: 177.5px;
+    }
+    .samsumglink{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+    }
+    .iphonelink{
+        margin-right: 100px;
+        float: left;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .downloadlink{
+        width: 200px;
+    }
+    footer{
+        background-color: rgb(0, 0, 0) !important;
+    }
+    .rm{
+        color: rgb(255, 255, 255) !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .section1{
+        display: flex;
+        justify-content: center;
+        height: 84vh;
+        padding-top: 25px;
+    }
+    .backgrounds1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        height: 700px;
+        width: 450px;
+        background-color: #000000;
+    }
+    .celulares{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .samsumg{
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    .iphone{
+        margin-bottom: 15px;
+        width: 150px;
+    }
+    .samsumglink{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+    }
+    .iphonelink{
+        margin-bottom: 30px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .downloadlink{
+        width: 150px;
+    }
+    footer{
+        background-color: rgb(0, 0, 0) !important;
+    }
+    .rm{
+        color: rgb(255, 255, 255) !important;
+    }
+}

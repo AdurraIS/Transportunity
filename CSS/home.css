@@ -1,0 +1,314 @@
+@media only screen and (min-width: 1200px) {
+
+  .section1 { 
+    padding-top: 60px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    height: 350px;
+  }
+
+  .s1tittle {
+    float: left;
+    width: 700px;
+    font-size: 28px;
+    color: #000;
+  }
+
+  .s1text {
+    float: left;
+    width: 400px;
+    padding-left: 0.5vw;
+    padding-top: 30px;
+    color: #000;
+    font-size: 18px;
+  }
+
+  .s1img {
+    float: right;
+    width: 500px;
+  }
+  .section2{
+    box-shadow: inset 0px 5px 4px 0px rgb(0, 0, 0);
+    padding-top: 60px;
+    background-size: cover;
+    background-image: url(../img/backgroundstreet.png);
+    height: 400px;
+  }
+  .s2tittle {
+    padding-left: 12vw;
+    font-size: 24px;
+    color: #fff;
+  }
+  .destinos{
+    display: flex;
+    justify-content: center;
+  }
+  .destino{
+    
+    box-shadow: 0px 10px 10px rgb(24, 24, 24);
+    object-fit: cover;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    margin-right: 45px;
+    background-color: #fff;
+  }
+  .destinotittle{
+    width: 200px;
+    margin-right: 45px;
+  }
+  .textcenter{
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .section3{
+    text-align: center;
+    padding-top: 60px;
+    height: 400px;
+    background-color: #000;
+  }
+  .s3tittle{
+    height: 30px;
+    margin-bottom: 60px;
+  }
+  .imgcontainer{
+    display: flex;
+    justify-content: center;
+  }
+  .s3img{
+    width: 800px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 50px;
+  }
+  .downloadbtn{
+    width: 250px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    border: none;
+    transition: all 0.8s;
+    font-size: 22px;
+    color: #000;
+  }
+  .downloadbtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.8s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.337);
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px){
+  .section1 { 
+    display: flex;
+    justify-content: center;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .s1tittle {
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+    color: #000;
+  }
+
+  .s1text {
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+    font-size: 18px;
+  }
+  .imgs{
+    display: flex;
+    justify-content: center;
+  }
+  .s1img {
+    padding-right: 20px;
+    padding-top: 30px;
+    width: 400px;
+  }
+  .section2{
+    box-shadow: inset 0px 5px 4px 0px rgb(0, 0, 0);
+    padding-top: 60px;
+    background-size: cover;
+    background-image: url(../img/backgroundstreet.png);
+    height: 350px;
+  }
+  .s2tittle {
+    padding-left: 12vw;
+    font-size: 24px;
+    color: #fff;
+  }
+  .destinos{
+    display: flex;
+    justify-content: center;
+  }
+  .destino{
+    
+    box-shadow: 0px 10px 10px rgb(24, 24, 24);
+    object-fit: cover;
+    border-radius: 30px;
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;
+    background-color: #fff;
+  }
+  .destinotittle{
+    text-align: center;
+    width: 120px;
+    margin-right: 30px;
+  }
+  .textcenter{
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .section3{
+    text-align: center;
+    padding-top: 60px;
+    height: 400px;
+    background-color: #000;
+  }
+  .s3tittle{
+    height: 30px;
+    margin-bottom: 60px;
+  }
+  .imgcontainer{
+    display: flex;
+    justify-content: center;
+  }
+  .s3img{
+    width: 800px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 50px;
+  }
+  .downloadbtn{
+    width: 250px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    border: none;
+    transition: all 0.8s;
+    font-size: 22px;
+    color: #000;
+  }
+  .downloadbtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.8s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.337);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section1 { 
+    display: flex;
+    justify-content: center;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .s1tittle {
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+    color: #000;
+  }
+
+  .s1text {
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+    font-size: 18px;
+  }
+  .imgs{
+    display: flex;
+    justify-content: center;
+  }
+  .s1img {
+    padding-right: 20px;
+    padding-top: 30px;
+    width: 400px;
+  }
+  .section2{
+    box-shadow: inset 0px 5px 4px 0px rgb(0, 0, 0);
+    padding-top: 60px;
+    background-size: cover;
+    background-image: url(../img/backgroundstreet.png);
+    height: 350px;
+  }
+  .s2tittle {
+    padding-left: 12vw;
+    font-size: 24px;
+    color: #fff;
+  }
+  .destinos{
+    display: flex;
+    justify-content: center;
+  }
+  .destino{
+    
+    box-shadow: 0px 10px 10px rgb(24, 24, 24);
+    object-fit: cover;
+    border-radius: 30px;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    background-color: #fff;
+  }
+  .destinotittle{
+    text-align: center;
+    width: 120px;
+    margin-right: 10px;
+  }
+  .textcenter{
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .section3{
+    text-align: center;
+    padding-top: 60px;
+    height: 400px;
+    background-color: #000;
+  }
+  .s3tittle{
+    height: 30px;
+    margin-bottom: 60px;
+  }
+  .imgcontainer{
+    display: flex;
+    justify-content: center;
+  }
+  .s3img{
+    width: 800px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 50px;
+  }
+  .downloadbtn{
+    width: 250px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    border: none;
+    transition: all 0.8s;
+    font-size: 22px;
+    color: #000;
+  }
+  .downloadbtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.8s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.337);
+  }
+}

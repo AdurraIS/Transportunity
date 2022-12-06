@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="CSS/headerfooter.css">
+    <link rel="stylesheet" href="CSS/form.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+          <img class="logo" src="img/logo2.png">
+        </a>
+        <ul class="header-items">
+          <li class="header-links"><a href="aplicativo.html">Aplicativo</a></li>
+          <li class="header-links">
+            <a href="empresa.html">Empresa</a>
+          </li>
+          <li class="header-links"><a href="contato.html">Contato</a></li>
+          <li class="header-links">
+            <a href="login.html">Entrar </a>|
+            <a href="cadastro.html"> Cadastrar</a>
+          </li>
+        </ul>
+      </header>
+      <div class="login-box cadastro">
+        <h2>Cadastrar</h2>
+        <form>
+          <div class="user-box">
+            <input type="text" id="user" name="user" placeholder="Usuário:" required="" />
+          </div>
+          <div class="user-box">
+            <input type="password" id="pass" name="pass" placeholder="Senha:" required/>
+          </div>
+          <div class="user-box">
+            <input type="password" id="pass2" name="pass2" placeholder="Confirmar Senha:" required/>
+          </div>
+          <div class="user-box">
+            <input type="email" id="email" name="email" placeholder="Email:" required/>
+          </div>
+          <a href="#" class="checkbox">
+            <input type="checkbox" id="chk1" class="checkbox" name="chk"  required/>
+            <label for="chk1">
+              <p class="p_chek">
+                Concordo com os <span>Termos de Serviço </span>e
+                <span>Política de Privacidade </span>
+              </p>
+            </label>
+          </a>
+          <div class="cent_bnt" onclick="registrar()">
+            <input type="submit" value="Concluir" class="conc_btn" />
+          </div>
+        </form>
+      </div>
+      <footer class="cadastrofooter">
+        <div class="rm">Matheus: 97058</div>
+        <div class="rm">Nicolas: 96840</div>
+        <div class="rm">Lucas: 97374</div>
+        <div class="rm">Rodrigo: 96978</div>
+        <div class="rm">Giovanni: 96958</div>
+      </footer>
+      <script>
+        var user = document.getElementById("user");
+        var pass = document.getElementById("pass");
+        var pass2 = document.getElementById("pass2");
+        var email = document.getElementById("email");
+  
+        function registrar(){
+          if (pass.value==pass2.value){
+            localStorage.setItem("User", user.value);
+            localStorage.setItem("Pass", pass.value);
+            localStorage.setItem("Email", email.value);
+  
+            window.location.href = ("login.html");
+          } else {
+            alert("Senhas divergentes.");
+          }
+        }
+
+      </script>
+</body>
+</html>
